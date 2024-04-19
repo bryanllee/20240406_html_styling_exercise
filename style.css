@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-color: black;
+}
+
+.container {
+    padding-top:20px;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.lists {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+
+.lists > div {
+    font-size: 30px;
+    margin: 40px;
+}
+
+.menu {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 45px;
+    right: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 50px;
+    color: black;
+}
+
+.login {
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 10px 20px;
+}
+
+.content {
+    padding-top: 80px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+.daftar{
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: white;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.footer { 
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    top: 780px;
+    right: 30px;
+}
